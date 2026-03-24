@@ -1,12 +1,13 @@
-x = 5
-y = 5
+n = list(map(int, input().split()))
 
-print(id(x))
-print(id(y))
+n.sort
 
-x = [1, 2, 3]
-y = x
-x.append(4)
+maior = max(n)
+menor = min(n)
 
-print(x)
-print(y)
+soma = n[1] + n[2]
+
+
+print(maior)
+print(menor)
+print(soma)
